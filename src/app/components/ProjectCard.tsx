@@ -57,7 +57,8 @@ export default function ProjectCard({ project }: Props) {
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 + index * 0.05, duration: 0.3 }}
-              className="px-3 py-1 text-xs font-medium bg-gray-700 text-white rounded-full cursor-default hover:bg-gray-600 transition-all duration-300">
+              className="px-3 h-8 flex items-center justify-center text-xs font-medium bg-gray-700 text-white rounded-full cursor-default hover:bg-gray-600 transition-all duration-300"
+            >
               {tech}
             </motion.span>
           ))}

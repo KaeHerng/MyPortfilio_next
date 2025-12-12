@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -37,6 +37,13 @@ export default function ContactPage() {
             className="flex items-center gap-3 bg-white/10 hover:bg-white/25 px-6 py-4 rounded-2xl transition duration-300 shadow-md">
             <Mail size={22} />
             <span>Email Me</span>
+          </a>
+
+          <a
+            href="tel:+60123456789"
+            className="flex items-center gap-3 bg-white/10 hover:bg-white/25 px-6 py-4 rounded-2xl transition duration-300 shadow-md">
+            <Phone size={22} />
+            <span>+60 14-259 6639</span>
           </a>
 
           <a

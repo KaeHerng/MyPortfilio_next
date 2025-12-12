@@ -5,32 +5,39 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   { 
-    name: "Project 1", 
+    name: "Claiming System", 
     description: "A sleek web app with modern UI.", 
-    image: "/project1.png", 
+    image: "https://wallpapers.com/images/hd/memes-pics-funny-pictures-i0yba3ovfb7k4qgs.jpg", 
     link: "#",
-    techStack: ["React", "Next.js", "Tailwind CSS"]
+    techStack: ["React", "Style + CSS", "javascript", "Redux", "RESTful API"]
   },
   { 
-    name: "Project 2", 
+    name: "Warehouse Management System", 
     description: "High-end frontend design with animations.", 
-    image: "/project2.png", 
+    image: "https://play-lh.googleusercontent.com/ZrsPit-BgpiMdm3am82N-4XV5DJJTkf1JzWFi26F39dWX6gCBFylt3t4iL93NOYeVhM=w240-h480-rw", 
     link: "#",
-    techStack: ["React", "Framer Motion", "TypeScript"]
+    techStack: ["React", "CSS", "JavaScript", "MySQL", "RESTful API", "Redux"]
   },
   { 
-    name: "Project 3", 
+    name: "Inventory System", 
     description: "Responsive and interactive dashboard.", 
-    image: "/project3.png", 
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmTmbuJEYWshEVbGFYMNWCdCwJ8ULML1cbxQ&s", 
     link: "#",
-    techStack: ["React", "Redux", "Tailwind CSS"]
+    techStack: ["React", "Context", "CSS", "Ether.js", "Wallet Connect", "RESTful API", "Postgrey SQL"]
   },
   { 
-    name: "Project 4", 
-    description: "Modern portfolio website design.", 
-    image: "/project4.png", 
+    name: "AMP", 
+    description: "an AI Marketplace CRM", 
+    image: "https://static.wixstatic.com/media/8d7a62_853119a146d24bb693d751f9ae0c65e8~mv2.webp/v1/fill/w_700,h_700,al_c,q_85,enc_avif,quality_auto/8d7a62_853119a146d24bb693d751f9ae0c65e8~mv2.webp", 
     link: "#",
-    techStack: ["Next.js", "TypeScript", "Framer Motion"]
+    techStack: ["Next.js", "TypeScript", "Framer Motion", "Context", "RESTful API", "Tailwind CSS"]
+  },
+  { 
+    name: "My Portfolio", 
+    description: "Modern portfolio website design.", 
+    image: "https://cdn.wallpapersafari.com/18/58/340nFZ.png", 
+    link: "#",
+    techStack: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS"]
   },
 ];
 

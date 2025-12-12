@@ -104,8 +104,7 @@ export default function TestimonialSlider() {
             className="absolute top-0 left-0 w-full flex flex-col items-center 
                        bg-white/5 backdrop-blur-xl border border-white/20 
                        rounded-3xl p-8 cursor-grab 
-                       shadow-[0_10px_30px_rgba(0,0,0,0.2)]"
-          >
+                       shadow-[0_10px_30px_rgba(0,0,0,0.2)]">
             <img
               src={testimonials[current].photo}
               alt={testimonials[current].name}
