@@ -26,11 +26,26 @@ export default function AboutPage() {
       <div className="absolute bottom-1/4 right-1/3 w-[400px] h-[400px] bg-pink-600/20 rounded-full blur-3xl animate-spin-slow"></div>
       <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-blue-600/10 rounded-full blur-2xl animate-spin-slow"></div> */}
 
+
+      <motion.div 
+         initial={{ opacity: 0, y: 40, scale: 0.9 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{ duration: 1, ease: "easeOut" }}
+        style={{ position: 'absolute', top: '50%', left: '70%' }}>
+        <Image
+            src="/assets/minion3.png"
+            alt="Profile Image"
+            width={140}
+            height={140}
+            className="object-cover w-full h-full"
+          />
+      </motion.div>
+
       {/* 主标题 */}
       <motion.h2
          whileInView={{ opacity: 1, y: 0, scale: 1 }}
          initial={{ opacity: 0, y: 40, scale: 0.9 }}
-         transition={{ duration: 0.6, ease: "backOut" }}
+         transition={{ type: "spring", stiffness: 180, damping: 10 }}
         className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400">
         About Me
       </motion.h2>

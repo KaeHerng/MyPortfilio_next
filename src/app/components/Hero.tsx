@@ -59,8 +59,8 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/20 via-black/40 to-black/70"></div>
 
       {/* 装饰圆圈 */}
-      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 w-[400px] h-[400px] bg-gradient-to-tr from-purple-600/20 to-pink-500/20 rounded-full blur-2xl animate-spin-slow"></div>
-      <div className="absolute bottom-1/4 right-1/3 w-[500px] h-[500px] bg-gradient-to-br from-pink-500/20 to-orange-400/20 rounded-full blur-2xl animate-spin-slow"></div>
+      {/* <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 w-[400px] h-[400px] bg-gradient-to-tr from-purple-600/20 to-pink-500/20 rounded-full blur-2xl animate-spin-slow"></div> */}
+      {/* <div className="absolute bottom-1/4 right-1/3 w-[500px] h-[500px] bg-gradient-to-br from-pink-500/20 to-orange-400/20 rounded-full blur-2xl animate-spin-slow"></div> */}
 
       {/* 主标题 */}
       <motion.h1

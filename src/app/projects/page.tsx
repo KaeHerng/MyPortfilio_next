@@ -44,7 +44,6 @@ export default function ProjectsPage() {
 
       {/* 页面标题 */}
       <motion.h2
-        
         initial={{ opacity: 0, y: 40, scale: 0.9 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
